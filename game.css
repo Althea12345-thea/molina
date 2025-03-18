@@ -1,0 +1,183 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background:url("rps.jpg")no-repeat; 
+  background-size:cover; 
+  background-position: center;
+}
+
+/* Game Container */
+
+.game-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background:transparent 
+  border: 4px solid gold;
+  box-shadow: 12px 12px 20px black;
+  border-radius: 10px;
+}
+
+/* Game Header */
+
+.game-header {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.game-header h1 {
+  margin-bottom: 0;
+}
+
+/* Game Choices */
+
+.game-choices {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.game-choice {
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  width: 100px;
+  background-color: #3366CC;
+  border: 1px solid #lightblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.game-choice:hover {
+  background-color: #fff;
+}
+
+/* Game Choice Icons */
+
+.rock-icon { 
+  color: white;
+  background-image: url('r.jpg');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.paper-icon { 
+  color: white;
+  background-image: url('p.jpg');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.scissors-icon { 
+  color: white;
+  background-image: url('s.jpg');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+}
+
+/* Game Result */
+
+.game-result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold; 
+  color:red;
+}
+
+.game-result span {
+  color: #337ab7;
+}
+
+/* Scoreboard */
+
+.scoreboard { 
+  color:black;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px; 
+  background-color:white;
+  width:250px;
+}
+
+.scoreboard span {
+  color: #337ab7;
+} 
+li { 
+  background-color:lightblue; 
+  width:60px;
+  color: #fff;
+  padding: 10px 10px;
+  border:none;
+  border-radius: 200px;
+  text-decoration: none; 
+  box-shadow:2px 2px 2px white; 
+  margin-top:8px; 
+  margin-left:8px;
+} 
+li a{
+  color:white; 
+  text-decoration:none;
+} 
+li:hover{
+  background-color:#fff;
+} 
+.con{
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+}
+
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}

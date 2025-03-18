@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>  
+<nav> 
+<ul>
+  <li><a href="index.html">Home</a></li>
+</ul> 
+</nav>
+  <div class="game-container">
+    <div class="game-header">
+      <h1>Rock Paper Scissors</h1>
+    </div>
+    <div class="game-choices">
+      <button class="game-choice" id="rock-btn">
+        <div class="rock-icon"></div>
+        <p>Rock</p>
+      </button>
+      <button class="game-choice" id="paper-btn">
+        <div class="paper-icon"></div>
+        <p>Paper</p>
+      </button>
+      <button class="game-choice" id="scissors-btn">
+        <div class="scissors-icon"></div>
+        <p>Scissors</p>
+      </button>
+    </div>
+    <div class="game-result">
+      <p id="result"></p>
+    </div>
+    <form>
+    <div class="scoreboard">
+      <p>Player Score: <span id="player-score">0</span></p>
+      <p>Computer Score: <span id="computer-score">0</span></p> 
+      </div>
+         <div class="con">
+           <h1>Feedback Form</h1>
+    <form id="feedback-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback" required></textarea>
+
+      <button type="submit">Submit Feedback</button>  
+      </div>
+    </form> 
+  <script src="game.js"></script>
+</body>
+</html>
